@@ -317,7 +317,8 @@ PRODUCT_BOOT_JARS += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti
+    android.hardware.power@1.2-impl \
+    android.hardware.power@1.2-service
 
 # QMI
 PRODUCT_PACKAGES += \
